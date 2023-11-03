@@ -1,0 +1,23 @@
+server:
+  port: 8181
+  servlet:
+    context-path: /app
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  info:
+    env:
+      enabled: true
+      
+info:
+  app:
+    name: Spring Boot Assignment 
+    version: 0.0.1
+    description: Spring Boot Assignment 5 with Map Database
+    author: Sumit Sharma
+    
+
+    
